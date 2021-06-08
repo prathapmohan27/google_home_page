@@ -1,0 +1,143 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+  
+}
+/*-----------nav bar----------------*/
+
+#header{
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+nav .nav_link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    
+}
+.nav_link:hover{
+    text-decoration: underline;
+}
+#nav_button{
+    font-weight: 600;
+    padding: 9px 23px;
+    text-align: center;
+    background: #1a73e8;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*-------------main content---------*/
+#main{
+    
+    margin-top: 6%;
+    padding: 8px;
+    
+    
+}
+#logo{
+    text-align: center;
+}
+#main #searchcontainer{
+   margin: 0 auto;
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    
+}
+#searchcontainer:hover{
+    box-shadow: 3px 2px 3px 1px #dfe1e5;
+    border: 2px solid #dfe1e5;
+}
+#searchcontainer #search{
+    padding: 10px;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: none;
+    background: transparent;
+    border: transparent;
+}
+
+form{
+    position: relative;
+}
+#searchcontainer form #s_icon{
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+#searchcontainer form #m_icon{
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    width: 20px;
+    height: 25px;
+    margin-top: 5px;
+    
+}
+
+/*---------buttons----*/
+#searchbutton{
+    text-align: center;
+    margin-top: 20px;
+}
+#searchbutton button{
+    padding: 8px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin-right: 10px;
+}
+ 
+
+/*-------------footer-------*/
+
+footer{
+    position:absolute ;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+   
+    justify-content: space-between;
+    
+    background-color: #eeeeee;
+	color: #000000b6;
+}
+#left_side ul li {
+    display:flex;
+    list-style-type:  none;
+    display: inline-block;
+    left: 0;
+    margin-right: 20px;
+    justify-content: flex-start;
+}
+#right_side ul li {
+    display: flex;
+    list-style-type:  none;
+    display: inline-block;
+    right:0;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.footer-link{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color:black;
+
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
